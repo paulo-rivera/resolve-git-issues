@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the current user
-current_user=$(whoami)
+current_user=$whoami
 
 # Check if the current user is "admin"
 if [ "$current_user" = "admin" ]; then
